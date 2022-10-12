@@ -33,7 +33,7 @@ func expireAt(tokenId: felt) -> (felt) {
 
 // @notice Determines whether a subscription can be renewed
 @view
-func isRenewable(tokenId: felt) {
+func isRenewable(tokenId: felt) -> (isValid: felt) {
 }
 
 
